@@ -1,0 +1,43 @@
+/*Element Selector*/
+html {
+    font-size:22px;
+}
+
+body {
+
+}
+
+main {
+    font-family: monospace;
+}
+
+/* Selectors can be grouped with a comma in between*/
+h1, h2{
+    color:blue;
+}
+
+/* Class Selector: Classes can be used more than once and are more specific than element selectors*/
+.gray{
+    color:gray;
+}
+
+p {
+    color:purple;
+}
+
+/* This selector overrules the previous p selector becase of the cascading behaviour of CSS and 
+  because the are at the same level of specificity*/
+p{
+    color:red;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/*ID selector- Are even more specific than class selectors should only be used once and be unique*/
+/*Not a very good practice for CSS*/
+#second {
+    font-style: italic;
+}
