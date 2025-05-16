@@ -1,0 +1,29 @@
+/* All element selector - Universal selector*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Allows the body to grow along with the content*/
+    min-height: 100vh;
+}
+/*h1 is a block element default width = 100%*/
+h1 {
+    border: 2px dashed red;
+    /* width relative to its parent*/
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+/* rem depends on the size of the root element while em depends
+on the parent element*/
+main {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    width: 40ch;
+}
