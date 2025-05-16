@@ -1,25 +1,35 @@
+/*CSS RESET*/
+
 * {
     margin: 0;
     padding: 0;
+    /*Border box takes into account content + padding + boder (sizes)*/
     box-sizing: border-box;
 }
 
-body {
-    min-height: 100vh;
+.container {
+    border: 10px double red;
+    font-size: 1.5rem;
+    /* Short hand for top right bottom left*/
+    margin: 1.5em; 
+    /* margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em; */
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: -20px;;
 }
 
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
-}
-
-main {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 2rem;
-    width: 40ch;
+.circle {
+    margin: 3rem auto; /* auto (short for left and right) centers it horizontally*/
+    background-color: gold;
+    width: 100px;
+    height:100px;
+    border: 2px solid #000;
+    border-radius: 50px; /*Set it half the value of the width and the height*/
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+    
+    
 }
