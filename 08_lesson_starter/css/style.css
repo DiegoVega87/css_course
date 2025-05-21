@@ -26,7 +26,7 @@ ul li:nth-child(even) {
   color: red;
 }
 
-/*Pseudo Element*/
+/*Pseudo Element to substitude the bullet point*/
 ul ::marker {
   color: red;
   font-family: fantasy;
